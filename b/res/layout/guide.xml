@@ -1,0 +1,227 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    >
+    
+<RelativeLayout 
+    android:id="@+id/linearLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="#ECEFF1"
+    
+    android:orientation="vertical" >
+
+   <LinearLayout
+        android:id="@+id/listingxx"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#5fba7d"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/backbtn"
+            android:layout_width="28dp"
+            android:layout_height="match_parent"
+          
+                 android:src="@drawable/abc_ic_ab_back_holo_light"
+            android:text=""
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/ssize"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="User guide" />
+
+
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="10dp"
+       android:layout_below="@+id/listingxx"
+       android:orientation="vertical" >
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Add to list"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="This modal contains all the expense data as a list discendingly that you've inserted. Press the add button as seen at the center bottom to insert a new transaction." />
+
+       <TextView
+           android:id="@+id/textView3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="In create section, Enter name, Choose method of payment i.e. You have to pay me Or I have to pay you, type the amount, select date, then describe and tap the deal.Simple as. Next you have to decide if the deal have to be closed or wait for a series of deductions. " />
+
+       <TextView
+           android:id="@+id/textView4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Details"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/textView5"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="In this section you can opt for installments or directly close the deal. For example. In the details if its seen as X has to pay Y 100 dollars. By taping on 'Close' it converts to X paid Y 100 dollars and the deal is closed. While if you can edit or delete the details as wish. Tap installments to deduct amounts to close it. " />
+
+       <TextView
+           android:id="@+id/textView6"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Installments"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/textView7"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Tap to deduct to deduct series of amounts from the current amount until it closes. It helps payee to record steady transations. After total deduction reaches to the current amount the deal is closed." />
+
+       <TextView
+           android:id="@+id/textView8"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Categories"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/textView9"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Its shows a list of all names inserted. It shows details about the amount you and the category has gone through the transaction period."  />
+
+       <TextView
+           android:id="@+id/textView10"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Date"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/textView11"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="It shows a list of all transactions in the descending order by date. Tap on each date fragment to get the details, which shows the expense or recieved amount on that date. " />
+
+       <TextView
+           android:id="@+id/textView12"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="To pay"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/textView13"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Tap on this modal to view remained paid amount and a list of all paid transactions till date." />
+
+       <TextView
+           android:id="@+id/textView14"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Top Recieve"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/textView15"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Tap on this modal to view remained recieved amount and a list of all recieved transactions till date." />
+
+       <TextView
+           android:id="@+id/textView16"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Flip"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/textView17"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Tap on this modal and it pops up the gross amount either you've tp pay or recieve the remained amount till date" />
+
+       <TextView
+           android:id="@+id/textView18"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Settings"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/textView19"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Tap on Back Up database option to back up as balaet.db in the internal storage balaet/database/balaet.db directory. To restore database move the current database and put the backed up database in the balaet/currentdatabase/ directory" />
+
+       <TextView
+           android:id="@+id/textView20"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Choose currency unit options in the options to view your local currrency exchange unit before the amount appears in the app." />
+
+       <TextView
+           android:id="@+id/textView21"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="This version of app is not pro it contains animations and sound effects , which consumes battery. To avoid such dialema please upgrade to the pro version of this app" />
+
+       <TextView
+           android:id="@+id/textView22"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Pro or Paid Version"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/textView23"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="- No Ads." />
+
+       <TextView
+           android:id="@+id/textView24"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="- Database back up to drop box facility. " />
+
+       <TextView
+           android:id="@+id/textView25"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="- Can mute animations and sound effects to save battery life." />
+
+       <TextView
+           android:id="@+id/textView26"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="- Can connect mutually online to make tranactions more trustworthy and less time consuming." />
+
+       <TextView
+           android:id="@+id/textView27"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Thanks for installing. If you like the app, please rate with 5 stars."
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   </LinearLayout>
+ 
+     </RelativeLayout>
+    
+</ScrollView>

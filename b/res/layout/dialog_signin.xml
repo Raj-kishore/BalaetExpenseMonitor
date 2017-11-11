@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:background="#fff"
+   
+    android:layout_height="wrap_content">
+  
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#303f9f"
+    android:layout_margin="10dp"
+    android:textStyle="bold"
+    android:text="Please let us know any type of improvements we can make with this app and please report bugs that you might face during application runtime. Your suggestion is most valuable and welcome. ">
+    
+    
+</TextView>
+</LinearLayout>

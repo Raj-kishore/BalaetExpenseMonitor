@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+    
+
+    
+ <LinearLayout
+        android:id="@+id/listingxx"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#5fba7d"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/listingx"
+            android:layout_width="28dp"
+            android:layout_height="match_parent"
+          
+                 android:src="@drawable/abc_ic_ab_back_holo_light"
+            android:text=""
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/ssize"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="Terms and privacy"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+ <LinearLayout
+          android:id="@+id/empty"
+     android:layout_width="match_parent"
+     
+     android:layout_height="wrap_content"
+     android:padding="10dp"
+     
+     android:orientation="vertical"
+     android:layout_below="@+id/listingxx"
+     android:layout_centerHorizontal="true" >
+        
+
+     <TextView
+         android:id="@+id/textViewwww"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#303f9f"
+         android:text="Last Update : 31 Dec 2016"/>
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Privacy"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+
+
+ <TextView
+     android:id="@+id/textView2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_below="@+id/empty"
+     android:text="The data inserted by the user in this application are confined only on the device. These information are not shared or analyzed or viewed or sold by anyone."
+     android:textAppearance="?android:attr/textAppearanceSmall" />
+
+ <TextView
+     android:id="@+id/textView3"
+     android:layout_width="wrap_content"
+     android:layout_marginTop="10dp"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_below="@+id/textView2"
+     android:text="The app automatically collects information about the type of device, API level, language, country, android version, runtime null point exceptions errors, info about how and by whome the application is used etc."
+     android:textAppearance="?android:attr/textAppearanceSmall" />
+
+ <TextView
+     android:id="@+id/textView4"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_centerVertical="true"
+     android:text="Advertising"
+     android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ <TextView
+     android:id="@+id/textView5"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_below="@+id/textView4"
+     android:text="The applicaton uses advertisement as a source of revenue. The revenue generated is typically invested in this applications' further development. Currently this app doesn't have a pro licence. It is in the beta round and advertisement is bound for the app's support. "
+     android:textAppearance="?android:attr/textAppearanceSmall" />
+
+ <TextView
+     android:id="@+id/textView6"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_below="@+id/textView5"
+     android:text="Beta Version"
+     android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ <TextView
+     android:id="@+id/textView7"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_below="@+id/textView6"
+     android:text="Beta version of this app is the initial stage of its design. It includes automation and dynamic functionalities to help personal accounting."
+     android:textAppearance="?android:attr/textAppearanceSmall" />
+
+ <TextView
+     android:id="@+id/textView8"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:textColor="#303f9f"
+     android:layout_below="@+id/textView7"
+     android:text="Thanks for Installing"
+     android:textAppearance="?android:attr/textAppearanceMedium" />
+ <TextView
+     android:id="@+id/textViewby"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:textColor="#303f9f"
+     android:layout_below="@+id/textView7"
+     android:text="Balaet Expense Monitor Beta Version 0.1"
+     android:textAppearance="?android:attr/textAppearanceLarge" />
+  </LinearLayout>
+     </RelativeLayout>

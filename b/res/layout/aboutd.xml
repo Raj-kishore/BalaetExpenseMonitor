@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+        android:padding="10dp"
+    android:orientation="vertical" >
+    
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#303f9f"
+        android:textStyle="bold"
+       
+        android:text="Balaet Expense Monitor Beta Release V 0.1"
+       > </TextView>
+           
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#999"
+        android:text="Powered By"
+        >
+        </TextView>
+            <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Next Effort Co."
+        >
+        </TextView>
+           <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#999"
+        android:text="Developed By"
+        >
+        </TextView>
+               <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Raj K. Maharana (call me RK)"
+        >
+        </TextView>
+               <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#999"
+        android:layout_marginTop="5dp"
+        android:text="Contact Email"
+        >
+        </TextView>
+             <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="balaetem@gmail.com"
+        >
+        </TextView>
+    
+             
+                 <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:text="A classic way to manage daily expenses."
+        >
+        </TextView>
+             
+                 <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Note it. Balaet em never sucks."
+        >
+        </TextView>
+    
+
+</LinearLayout>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+         android:background="#000">
+    
+<LinearLayout
+        android:id="@+id/listingxx"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#333"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/listingx"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/pig"
+        android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/ssize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Settings"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    
+
+<ScrollView 
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/listingxx"
+    
+    >
+      <LinearLayout
+            android:id="@+id/opop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:orientation="vertical"
+            android:layout_below="@+id/listingxx"
+            android:layout_centerHorizontal="true"
+            android:background="#333" >
+    <LinearLayout
+            android:id="@+id/lay2s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="1dp"
+            android:orientation="vertical"
+            android:background="#000" >
+
+        <TextView
+            android:id="@+id/textView2s"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="0.33"
+            android:text="Share with friends"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lay2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="1dp"
+            android:orientation="vertical"
+            android:background="#000" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="0.33"
+            android:text="Rate This App"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.90"
+            android:text="Rate Balaet EM with 5 Stars in google play."
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+           android:textColor="#fff"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+      <LinearLayout
+               android:id="@+id/lay3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:layout_below="@+id/lay2"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginBottom="1dp" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="0.66"
+            android:text="Backup Database"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textVisew1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.90"
+            android:text="/storage/emulated/0/balaetem/balaet.db"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+           android:textColor="#fff"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+    
+           <LinearLayout
+               android:id="@+id/lay10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:orientation="vertical"
+        android:layout_below="@+id/lay3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp" >
+
+        <TextView
+            android:id="@+id/restore"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:layout_weight="0.90"
+            android:textColor="#fff"
+            android:text="Restore Database" />
+       <TextView
+            android:id="@+id/textVisew1w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.90"
+            android:text="Make sure balaet.db is in the following directory"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+           android:textColor="#fff"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+              <TextView
+            android:id="@+id/textVisew1sw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.90"
+            android:text="/storage/emulated/0/balaetem/"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+           android:textColor="#fff"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    
+       <LinearLayout
+               android:id="@+id/lay4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:layout_below="@+id/lay10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:layout_weight="0.90"
+             android:textColor="#fff"
+            android:text="Version History" />
+
+    </LinearLayout>
+        <LinearLayout
+               android:id="@+id/lay5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:layout_below="@+id/lay4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:text="Currency Unit "
+            android:textColor="#fff" />
+
+    </LinearLayout>
+      <LinearLayout
+               android:id="@+id/lay6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:layout_below="@+id/lay5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp" >
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_margin="20dp"
+             android:textColor="#fff"
+            android:layout_weight="0.90"
+            android:text="About The Application" />
+        
+        
+
+    </LinearLayout>
+    
+                <LinearLayout
+               android:id="@+id/lay7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:layout_below="@+id/lay6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp" >
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+             android:textColor="#fff"
+            android:layout_weight="0.90"
+            android:text="Terms And Condition" />
+
+    </LinearLayout>
+          <LinearLayout
+               android:id="@+id/lay8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:layout_below="@+id/lay7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp" >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="0.90"
+            android:textSize="20dp"
+             android:textColor="#fff"
+            android:text="Suggestions And Bugs Report" />
+
+    </LinearLayout>
+           <LinearLayout
+               android:id="@+id/lay9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="1dp"
+        android:background="#000"
+        android:layout_below="@+id/lay8"
+        android:layout_centerHorizontal="true"
+         >
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+             android:textColor="#fff"
+             android:textSize="20dp"
+            android:layout_margin="20dp"
+            android:layout_weight="0.90"
+            android:text="Application Guide" />
+        
+    </LinearLayout>
+       <LinearLayout
+            android:id="@+id/lay2x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           
+            android:layout_centerHorizontal="true"
+           
+            android:orientation="vertical"
+            android:background="#000" >
+
+        <TextView
+            android:id="@+id/textView2x"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="0.33"
+            android:text="Reset Database"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+        
+
+                <TextView
+            android:id="@+id/textViesw1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.90"
+            android:text="Deletes all items from the Pay List"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+           android:textColor="#fff"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+      
+
+    </LinearLayout>
+</LinearLayout>
+
+      </ScrollView>
+</RelativeLayout>

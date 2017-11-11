@@ -1,0 +1,192 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="#000"
+
+    tools:context="com.example.notepadvoice.MainActivity" >
+
+
+    <LinearLayout
+        android:id="@+id/listingxx"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+     android:background="#333"
+     android:layout_marginBottom="1dp"
+        android:orientation="horizontal" >
+        <ImageView
+            android:id="@+id/listingx"
+            android:layout_width="28dp"
+            android:layout_height="match_parent"
+          
+                 android:src="@drawable/abc_ic_ab_back_holo_dark"
+            android:text=""
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/ssize"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="Details" />
+
+    </LinearLayout>
+    
+       
+    <LinearLayout 
+    android1:id="@+id/some"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+   android:background="#333"
+   
+    android1:layout_below="@+id/listingxx"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/textViewt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="2.95"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Total"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/textViewta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+           android:textColor="#43A047"
+        android:text="300"/>
+
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+    android1:id="@+id/some1"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="#333"
+    
+    android1:layout_below="@+id/some2"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/textViewt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="2.95"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Remained"
+        android:textColor="#fff" />
+    
+        <TextView
+        android:id="@+id/textViewtad1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+           android:textColor="#43A047"
+        android:text="="/>
+
+    <TextView
+        android:id="@+id/textViewta1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+           android:textColor="#43A047"
+        android:text="300"/>
+
+    </LinearLayout>
+    
+     <LinearLayout 
+    android1:id="@+id/some2"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+   android:background="#333"
+    android1:layout_below="@+id/some"
+    
+     android:layout_marginBottom="1dp"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/textViewt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="2.95"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Deduction"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/textViewta2e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+           android:textColor="#B71C1C"
+        android:text="-" />
+    <TextView
+        android:id="@+id/textViewta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+           android:textColor="#B71C1C"
+        android:text="120" />
+
+    </LinearLayout>
+    
+        
+ 
+
+    <ListView
+        
+        android1:id="@+id/listView1"
+        android1:layout_below="@+id/some1"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+           android:background="#000"
+        android1:layout_centerHorizontal="true" >
+    </ListView>
+
+  
+</RelativeLayout>

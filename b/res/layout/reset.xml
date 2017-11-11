@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+        android:padding="10dp"
+    android:orientation="vertical" >
+    
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#B71C1C"
+        android:textStyle="bold"
+       
+        android:text="Are you sure!"
+       > </TextView>
+    
+        <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+       
+        android:text="By pressing reset, it will earse all the content from the current database."
+       > </TextView>
+        
+           <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#333"
+        android:layout_marginTop="10dp"
+       
+        android:text="If the files are important to you. We recommend you to back up and keep a copy of current database before erasing it." > </TextView>
+           
+ 
+    
+
+</LinearLayout>
+
